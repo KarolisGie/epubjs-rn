@@ -1,5 +1,5 @@
 {
-  "name": "360MediaDirect/epubjs-rn",
+  "name": "@360-media-direct/epubjs-rn",
   "version": "0.2.37",
   "repository": "https://github.com/360MediaDirect/epubjs-rn",
   "main": "./components/index.js",
