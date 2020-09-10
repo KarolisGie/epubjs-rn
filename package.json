@@ -1,5 +1,5 @@
 {
-  "name": "@360-media-direct/epubjs-rn",
+  "name": "@360mediadirect/epubjs-rn",
   "version": "0.2.37",
   "repository": "https://github.com/360MediaDirect/epubjs-rn",
   "main": "./components/index.js",
@@ -10,8 +10,7 @@
     "build": "./node_modules/.bin/babel src/ -d components/",
     "watch": "./node_modules/.bin/babel src/ -d components/ -w",
     "local": "./node_modules/.bin/gulp watch",
-    "prepublishOnly": "npm run build",
-    "postinstall": "babel src/ -d components/"
+    "prepublishOnly": "npm run build"
   },
   "license": "BSD-2-Clause",
   "dependencies": {
