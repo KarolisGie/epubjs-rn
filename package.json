@@ -1,6 +1,6 @@
 {
   "name": "@360mediadirect/epubjs-rn",
-  "version": "0.2.37",
+  "version": "0.2.39",
   "repository": "https://github.com/360MediaDirect/epubjs-rn",
   "main": "./components/index.js",
   "private": false,
@@ -14,12 +14,12 @@
   },
   "license": "BSD-2-Clause",
   "dependencies": {
+    "@360mediadirect/epubjs": "^0.3.88",
     "@babel/polyfill": "7.8.7",
     "@lightbase/react-native-orientation": "3.2.6",
     "@react-native-community/async-storage": "1.10.1",
     "base-64": "0.1.0",
     "buffer": "5.6.0",
-    "epubjs": "0.3.88",
     "events": "3.1.0",
     "i": "0.3.6",
     "jszip": "3.4.0",

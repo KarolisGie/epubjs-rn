@@ -21,13 +21,13 @@ if (!global.Blob) {
 
 global.JSZip = global.JSZip || require("jszip");
 
-global.URL = require("epubjs/libs/url/url-polyfill.js");
+global.URL = require("@360mediadirect/epubjs/libs/url/url-polyfill.js");
 
 if (!global.btoa) {
   global.btoa = require("base-64").encode;
 }
 
-import ePub, { Layout, EpubCFI } from "epubjs";
+import ePub, { Layout, EpubCFI } from "@360mediadirect/epubjs";
 
 const core = require("epubjs/lib/utils/core");
 const Uri = require("epubjs/lib/utils/url");
