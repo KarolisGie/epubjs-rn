@@ -29,10 +29,6 @@ if (!global.btoa) {
 
 import ePub, { Layout, EpubCFI } from "@360mediadirect/epubjs";
 
-const core = require("epubjs/lib/utils/core");
-const Uri = require("epubjs/lib/utils/url");
-const Path = require("epubjs/lib/utils/path");
-
 import Rendition from "./Rendition";
 
 class Epub extends Component {
