@@ -471,6 +471,7 @@ class Rendition extends Component {
               backgroundColor: this.props.backgroundColor || "#FFFFFF",
             },
           ]}
+          decelerationRate="normal"
           bounces={false}
           javaScriptEnabled={true}
           scrollEnabled={this.props.scrollEnabled}
